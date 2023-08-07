@@ -1,11 +1,8 @@
-// Modules
-// Modules - Encapsulated Code (only share minimum)
 
-const names = require('./4-modules')
-const sayHi = require('./5-utils')
+const _ = require('lodash')
 
-console.log(names)
+const items = [1, [2, [3, [4]]]]
+const newItems = _.flattenDeep(items);
 
-sayHi('susan')
-sayHi(names.john)
-sayHi(names.peter)
+console.log(items)
+console.log(newItems)

@@ -1,0 +1,3 @@
+Here is the result: 
+            this is the first text file with original material., 
+            this is the second text file with some other random text
