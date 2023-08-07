@@ -1,14 +1,11 @@
-// GLOBALS - NO WINDOW !!!!!
+// Modules
+// Modules - Encapsulated Code (only share minimum)
 
-// __dirname - path 
+const names = require('./4-modules')
+const sayHi = require('./5-utils')
 
-const amount = 12
+console.log(names)
 
-if(amount<10){
-    console.log('small number')
-}
-else{
-    console.log('large number')
-}
-
-console.log(`Hey it's my first node app! Hello World!`)
+sayHi('susan')
+sayHi(names.john)
+sayHi(names.peter)
